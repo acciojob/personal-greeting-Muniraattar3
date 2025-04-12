@@ -1,13 +1,12 @@
-
 import React,{useState} from "react";
 import './../styles/App.css';
 
-const App(){
-  const [input, setInput]=useState('');
+const App=()=>{
+  const [input,setInput] = useState('');
 
   const onInput=(e)=>{
-    const {value} =e.target;
-    setInput(value);
+    const {value} = e.target
+    setInput(value)
   }
 
   const onClear()=>{
